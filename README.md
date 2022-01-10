@@ -6,12 +6,12 @@
 - Place at app/code directory
 
 ## Install
-- You need to install NodeJs to run this code
-- run yarn install on pwa-checkout and pwa-graphql directory
+- You need to install `NodeJs` to run this code
+- run `yarn install` on pwa-checkout and pwa-graphql directory
 
 ## Running
 - Magento:upgrade
 - Magento:di:compile
-- Sandika -> pwa-checkout -> yarn build
+- Sandika -> pwa-checkout -> `yarn build`
 - Magento:static-content:deploy
-- Sandika -> pwa-graphql -> yarn start
+- Sandika -> pwa-graphql -> `yarn run:development` or `yarn run:production`
