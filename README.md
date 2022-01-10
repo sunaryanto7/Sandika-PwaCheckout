@@ -1,9 +1,9 @@
 # Sandika-PwaCheckout for SWIFTPWA MAGENTO ONLY
 
 ## Preparation
-- Clone Sandika-PwaCheckout from git
-- Rename Sandika-PwaCheckout to Sandika
-- Place at app/code directory
+- Clone `Sandika-PwaCheckout` from git
+- Rename `Sandika-PwaCheckout` to `Sandika`
+- Place at `app/code` directory
 
 ## Install
 - You need to install `NodeJs` to run this code
