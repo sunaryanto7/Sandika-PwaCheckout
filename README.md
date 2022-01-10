@@ -1,4 +1,4 @@
-# Sandika-PwaCheckout for SWIFTPWA MAGENTO ONLY
+# Sandika_PwaCheckout for SWIFTPWA MAGENTO ONLY
 
 ## Preparation
 - Clone `Sandika-PwaCheckout` from git
