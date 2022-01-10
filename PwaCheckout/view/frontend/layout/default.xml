@@ -1,0 +1,7 @@
+
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+  <head>
+  <css src="Sandika_PwaCheckout::/css/2.1c3db96c.chunk.css"/> <css src="Sandika_PwaCheckout::/css/2.1c3db96c.chunk.css.map"/> <css src="Sandika_PwaCheckout::/css/main.929503c5.chunk.css"/> <css src="Sandika_PwaCheckout::/css/main.929503c5.chunk.css.map"/>
+  </head>
+</page>

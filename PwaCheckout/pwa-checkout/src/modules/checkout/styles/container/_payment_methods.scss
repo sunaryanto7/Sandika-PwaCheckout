@@ -1,0 +1,25 @@
+.payment-accordion{
+  .payment-accordion-list{
+
+    .payment-accordion-header{
+      font-size: 14px;
+      padding: 5px 0;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .payment-accordion-content{
+      padding: 5px 15px;
+      font-size: 14px;
+
+      .form-check{
+        margin-bottom: 5px;
+      }
+
+      .form-check-label{
+        font-size: 12px;
+      }
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "name": "pwa-checkout-graphql",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "@graphql-tools/load": "^7.4.1",
+    "@graphql-tools/merge": "^8.2.1",
+    "@graphql-tools/schema": "^8.3.1",
+    "@graphql-tools/url-loader": "^7.5.2",
+    "@graphql-tools/wrap": "^8.3.2",
+    "apollo-server-express": "^3.5.0",
+    "cookie-parser": "^1.4.5",
+    "cookie-session": "^1.4.0",
+    "cors": "^2.8.5",
+    "cross-fetch": "^3.1.4",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "express-graphql": "^0.12.0",
+    "graphql": "^16.0.1",
+    "graphql-request": "^3.6.1"
+  },
+  "scripts": {
+    "run:production": "NODE_ENV=production node server-graphql.js",
+    "run:development": "NODE_ENV=development node server-graphql.js"
+  }
+}

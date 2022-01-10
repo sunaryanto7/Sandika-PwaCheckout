@@ -1,0 +1,28 @@
+.container-delivery{
+  .delivery-options{
+    display: flex;
+    gap:15px;
+
+    .delivery-option{
+      flex:0 0 calc(50% - 7.5px);
+      text-align: center;
+      padding: 25px 15px;
+      border: 1px solid #b925902e;
+      border-radius: 10px;
+      cursor: pointer;
+
+      p{
+        margin-bottom: 0;
+      }
+      
+      &.active{
+        background: #b9259012;
+        color: #b92590;
+      }
+    }
+
+    .delivery-option h6{
+      margin: 0;
+    }
+  }
+}
