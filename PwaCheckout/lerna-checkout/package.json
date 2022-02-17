@@ -1,0 +1,13 @@
+{
+  "name": "lerna-checkout",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "lerna": "^4.0.0"
+  },
+  "scripts": {
+    "dev": "cp .env packages/frontend && cp .env packages/backend && lerna run dev",
+    "prod": "cp .env packages/frontend && cp .env packages/backend && lerna run prod"
+  }
+}

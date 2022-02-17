@@ -1,0 +1,39 @@
+{
+  "schema": {
+    "active": "onestep"
+  },
+  "type": [
+    {
+      "name": "onestep"
+    },
+    {
+      "name": "onepage-2-step",
+      "step": [
+        "shipping",
+        "payment"
+      ]
+    },
+    {
+      "name": "onepage-3-step",
+      "step": [
+        "shipping",
+        "payment",
+        "place_order"
+      ]
+    }
+  ],
+  "config": {
+    "delivery": {
+      "pickup": 1,
+      "home": 1
+    },
+    "payment": {
+      "extrafee": 0,
+      "storecredit": 0,
+      "giftcard": 0,
+      "cashback": 0,
+      "promo": 0,
+      "rewardpoint": 0
+    }
+  }
+}

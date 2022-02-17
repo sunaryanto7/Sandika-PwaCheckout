@@ -1,0 +1,131 @@
+.sandika .container-summary{
+  border-radius: 10px;
+  overflow: hidden;
+
+  .block{
+    margin-bottom: 0;
+  }
+
+  .block-title{
+    background: #b92590;
+    padding: 15px;
+
+    h4{
+      margin-bottom: 0;
+      color: white;
+    }
+  }
+
+  .block-content{
+    margin-top: 0;
+    background: #b9259012;
+    padding: 0 15px;
+  }
+}
+
+.summary{
+  padding-bottom: 15px;
+
+  .summary-cart{
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+    .item{
+      display: flex;
+      border-radius: 10px;
+      padding:10px;
+      align-items: center;
+    }
+
+    .item .item-images{
+      flex: 0 0 25%;
+
+      img{
+        width: auto;
+        height: 80px;
+      }
+    }
+
+    .item .item-detail{
+      padding-left: 15px;
+
+      p{
+        margin-bottom: 0;
+      }
+
+      .product-name{
+        margin-bottom: 15px;
+      }
+
+      .product-qty{
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+        gap:10px;
+        font-size: 12px;
+      }
+
+      .product-qty span{
+        background: #b92590;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding:0 8px;
+        border-radius: 3px;
+        color: white;
+        cursor: pointer;
+      }
+
+      .product-price{
+        font-weight: 500;
+        font-size: 14px;
+      }
+
+
+    }
+  }
+
+  .summary-prices{
+    border-bottom: 1px solid white;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+
+    .price{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 5px;
+    }
+
+    .price .price-label{
+      font-size: 12px;
+      font-weight: 400;
+      flex: 0 0 50%;
+    }
+
+    .price .price-value{
+      font-size: 14px;
+      font-weight: 500;
+    }
+  }
+
+  .summary-total{
+    margin-top: 15px;
+
+    .price{
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .price .price-label{
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    .price .price-value{
+      font-size: 16px;
+      font-weight: 600;
+    }
+  }
+}

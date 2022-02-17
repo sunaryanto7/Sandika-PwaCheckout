@@ -1,0 +1,50 @@
+.container-pickup-information{
+  .form-inline .form-group{
+    flex: 0 0 70%;
+
+    input{
+      width: 100%;
+    }
+  }
+}
+
+.information-pickup{
+  position: relative;
+  
+  .information-pickup-person{
+    margin-bottom: 15px;
+  }
+  .information-pickup-person p{
+    margin: 0;
+  }
+
+  .information-pickup-store{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    p{
+      margin-bottom: 0;
+    }
+
+    button{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+}
+
+.store-pickup-modal{
+  .store-list{
+    border: 1px solid #0404041c;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    cursor: pointer;
+
+    p{
+      margin-bottom: 0;
+    }
+  }
+}

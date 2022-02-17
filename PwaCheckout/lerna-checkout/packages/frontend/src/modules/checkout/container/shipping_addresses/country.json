@@ -1,0 +1,16 @@
+{
+  "COUNTRY_OPTIONS": [
+    {
+      "id": "US",
+      "label": "United States"
+    },
+    {
+      "id": "ID",
+      "label": "Indonesia"
+    },
+    {
+      "id": "SG",
+      "label": "Singapore"
+    }
+  ]
+}

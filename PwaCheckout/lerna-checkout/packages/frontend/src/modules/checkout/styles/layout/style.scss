@@ -1,0 +1,56 @@
+p{
+  font-size: 12px;
+}
+
+img{
+  font-size: 12px;
+}
+
+select.form-control, input.form-control{
+  font-size: 12px;
+}
+
+.autocomplete-menu::-webkit-scrollbar {
+  display: none;
+}
+
+.autocomplete-menu{
+  -ms-overflow-style: none;  
+  scrollbar-width: none;
+}
+
+.sandika{
+  max-width: 1000px;
+  display: block;
+  margin: auto;
+  padding: 20px 15px;
+
+  p{
+    font-size: 12px;
+  }
+  
+  .btn{
+    font-size: 12px;
+  }
+
+  .block{
+    margin-bottom:40px;
+    
+    .block-title{
+      border-bottom: 1px solid #ededed;
+    }
+    .block-content{
+      margin-top: 15px;
+    }
+  } 
+
+  .header{
+    margin-bottom: 50px;
+    
+    .logo{
+      margin: auto;
+      display: block;
+      max-width: 100px;
+    }
+  }
+} 

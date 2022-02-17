@@ -1,0 +1,116 @@
+.pac-container{
+  z-index: 999999!important;
+}
+.container-shipping-address{
+  .empty-address{
+    background: red;
+    color: white;
+    border-radius: 8px;
+    padding:10px;
+    margin-bottom: 10px;
+
+    p{
+      margin: 0;
+      font-size: 12px;
+      font-weight: 500;
+    }
+  }
+
+  .addresses-container{
+    display: flex;
+    gap:15px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+
+    .address-item{
+      border-radius: 10px;
+      padding: 15px;
+      flex: 0 0 calc(50% - 7.5px);
+      border:1px solid #b925902e;
+      position: relative;
+
+      p{
+        margin:0;
+      }
+
+      .address-action{
+        position: absolute;
+        top: 5px;
+        right: 5px;
+      }
+      .address-action button{
+        font-size: 12px;
+        border-radius: 7px;
+        padding: 3px 8px;
+        margin-left: 10px;
+      }
+    }
+    .address-item-selected{
+      background: #b9259012;
+      color: #b92590;
+    }
+  }
+}
+
+.address-form-modal{
+  max-width: 650px !important;
+
+  label{
+    font-size: 14px;
+  }
+
+  .modal-header{
+    background:#b92590;
+    color: white;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+
+    h6{
+      text-align: center;
+      margin: auto;
+    }
+
+    button{
+      display: none;
+    }
+  }
+
+  .modal-content{
+    border-radius: 10px;
+    border-width: 0;
+    max-height: 500px;
+    overflow-y: scroll;
+  }
+
+  .modal-footer{
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+
+  .autocomplete-menu{
+    position: absolute;
+    z-index: 99;
+    width: 100%;
+    border-radius: 5px;
+    overflow: scroll;
+    border-color: lightgrey;
+    border: 1px solid lightgrey;
+  
+    .dropdown-item{
+      padding: 5px 10px;
+    }
+  }
+  
+  .form-control:disabled, .form-control[readonly]{
+    background: white;
+  }
+
+  .google-maps{
+    margin-bottom: 100px;
+
+    div[data-standalone-searchbox]{
+      margin: 15px 0 ;
+    }
+  }
+}
