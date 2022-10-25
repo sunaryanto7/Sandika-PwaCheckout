@@ -1,4 +1,4 @@
-# Sandika-PwaCheckout
+# Sandika PWA Checkout
 
 Ini adalah pwa checkout CSR yang di built menggunakan ReactJS untuk Magento Swift <br/>
 Sandika PWA Checkout sendiri terdiri dari beberapa komponen
